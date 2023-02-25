@@ -6,6 +6,7 @@ import gunicorn
 from pywebio import start_server
 
 def bmi():
+    server=app.server
     height = input("Input your height(cm)：", type=FLOAT)
     weight = input("Input your weight(kg)：", type=FLOAT)
 

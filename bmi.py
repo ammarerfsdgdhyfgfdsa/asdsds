@@ -2,6 +2,7 @@
 from pywebio.input import input, FLOAT
 from pywebio.output import put_text
 import argparse
+import gunicorn
 from pywebio import start_server
 
 def bmi():

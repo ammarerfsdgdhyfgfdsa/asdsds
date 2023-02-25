@@ -5,8 +5,8 @@ import argparse
 import gunicorn
 from pywebio import start_server
 
-def app():
-    server=app.server
+def bmi():
+    server=bmi.server
     height = input("Input your height(cm)：", type=FLOAT)
     weight = input("Input your weight(kg)：", type=FLOAT)
 
@@ -28,4 +28,4 @@ if __name__ == '__main__':
 
     #start_server(app, port=args.port)
     #app.run(host='localhost',port=80)
-    app()
+    bmi()
